@@ -21,14 +21,16 @@
   color:  #727272;
 }
 
+.section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+color: #131313;}
+
 
  /* header styles */
 
- .nav-title{
-  font-size: 2.8rem;
-  font-weight: 700;
 
- }
+ 
 
  header{
   background: rgba(255, 144, 14, 0.10);
@@ -135,6 +137,7 @@ main{
     padding-right: 20px;
     padding-left: 20px;
   
+}
 }
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {

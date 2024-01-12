@@ -5,7 +5,18 @@
 }
 /* shared styles */
 
-
+.btn-primary{
+  background-color: #FF900E;
+  border-radius: 10px;
+  /* font-weight: 600; */
+  font-size: 1.25rem;
+  /* width: 180px; */
+  /* height: 4rem; */
+  color: white;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: 0;
+}
 
 
  /* header styles */
@@ -51,7 +62,32 @@ margin: 0 auto;
   color: #131313;
 }
 .banner-description{
-  color: #131313;
-  font-size: 1rem;
-  font-weight: 400;
-line-height: 28px;}
+  color: #131313;}
+ 
+.banner img{
+  margin: 20px;
+  width: 100%;
+}
+
+
+
+
+/* responsive media quaries */
+@media  screen and (max-width: 576px) {
+
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  
+}
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+  nav{
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+}

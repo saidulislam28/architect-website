@@ -182,7 +182,29 @@ bottom: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/* footer section */
 
+.sponsor{
+  max-width: 550px;
+  text-align: center;
+  margin: auto;
+}
+.sponsor .section-title{
+  margin-bottom: 30px;
+}
+.sponsor-img{
+  margin: 20px 240px auto 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-section{
+  border-radius: 8px;
+  background: #FFF4E7;
+  height: 50px;
+  margin: 130px 240px 130px 240px;
+  text-align: center;
+ padding-top: 24px;
+}
 
 
 
